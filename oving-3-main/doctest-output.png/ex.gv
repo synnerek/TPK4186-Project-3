@@ -1,0 +1,12 @@
+// EX
+digraph ex {
+	db1 [label="input A" color=aquamarine style=filled]
+	db2 [label="input B" color=aquamarine style=filled]
+	db3 [label="input C" color=aquamarine style=filled]
+	B [label=transformation shape=box]
+	C [label=output fillcolor=darksalmon shape=cylinder style=filled]
+	db1 -> B
+	db2 -> B
+	db3 -> B
+	B -> C
+}
